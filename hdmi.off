@@ -1,0 +1,12 @@
+#!/usr/bin/env python3
+# yjeanrenaud
+# https://github.com/yjeanrenaud/raspi_hdmi
+# turns hdmi port of Raspberry Pi on
+
+import os
+if '[TV is off]' in os.popen('/usr/bin/env tvservice -s').read() :
+  print (" TV is already off")
+else :
+  #turn HDMI off
+  result=os.popen('/usr/bin/env tvservice --off').read()
+  print (result)
