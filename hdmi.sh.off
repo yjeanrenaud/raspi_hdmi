@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+if [[ $(/usr/bin/env tvservice -s) == *'[TV is off]'* ]]; then
+  echo " TV is already off"
+else :
+  #turn HDMI off
+  result=$(/usr/bin/env tvservice --off)
+  echo $result
+fi
