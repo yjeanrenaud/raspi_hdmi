@@ -3,6 +3,7 @@
 # https://github.com/yjeanrenaud/raspi_hdmi
 # bash script
 # turns hdmi port of Raspberry Pi on and off
+
 shopt -s nocasematch
 if [ $# -ge 1 ]
 then
