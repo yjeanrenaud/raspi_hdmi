@@ -2,6 +2,7 @@
 # yjeanrenaud
 # https://github.com/yjeanrenaud/raspi_hdmi
 # turns hdmi port of Raspberry Pi off
+
 if [[ $(/usr/bin/env tvservice -s) == *'[TV is off]'* ]]; then
   echo " TV is already off"
 else :
