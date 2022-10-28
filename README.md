@@ -1,9 +1,10 @@
 # raspi_hdmi
-Two small python scripts that turn the HTMI on and off.
+v 0.1.2
+Some small python scripts that turn the HTMI on and off.
 They serve as easy commands for the cli
 ## requirements
-* python 3
-* or use the bash only-versions `hdmi.sh.on` and `hdmi.sh.off` or just `hdmi.sh`
+* python 3 for `hdmi.off`and `hdmi.on`
+* or use the bash-only versions `hdmi.sh.on` and `hdmi.sh.off` or just `hdmi.sh`
 ## installation
 ```
 sudo cp hdmi.on /usr/local/bin/hdmi.on
